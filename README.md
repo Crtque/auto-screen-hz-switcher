@@ -1,2 +1,18 @@
-# auto-screen-hz-switcher
-Laptop Power Screen Optimizer automatically adjusts your screen’s refresh rate based on power source status. Switches to a high refresh rate when plugged in and a lower rate on battery to save energy. Includes simple setup scripts, Windows Task Scheduler integration, and autostart options.
+# Laptop Power Screen Optimizer
+
+Laptop Power Screen Optimizer automatically adjusts your screen’s refresh rate based on your laptop’s power source.  
+It switches to a **high refresh rate when plugged in** and **lowers it on battery** to extend battery life.  
+Includes easy setup scripts, Task Scheduler integration, and optional autostart.
+
+---
+
+## ✨ Features
+- 🔌 Detects AC adapter connection and adjusts refresh rate automatically
+- ⚡ Saves battery life by lowering refresh rate on battery
+- 🖥️ Uses `ScreenResChange.exe` for quick refresh rate switching
+- 📂 Simple `.bat` scripts for install, remove, and autostart
+- 🛠️ No extra software required — works with built-in Windows tools
+
+---
+
+## 📦 Project Structure
