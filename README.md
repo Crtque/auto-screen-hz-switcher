@@ -27,10 +27,15 @@ You are welcome to **compile it yourself** for transparency and customization.
 
 ## 📦 Project Structure
 LaptopPowerScreenOptimizer/
+
 ├── ScreenResChange.exe # Built from screen_resolution_changer
+
 ├── task_template.xml # Task Scheduler template
+
 ├── enable_screenrefresher.bat # Creates AC on/off tasks
+
 ├── check_power_and_set_refresh.bat # Checks power status at startup
+
 └── disable_screenrefresher.bat # Deletes all scheduled tasks
 
 ---
