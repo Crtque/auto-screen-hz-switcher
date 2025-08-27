@@ -26,3 +26,29 @@ You are welcome to **compile it yourself** for transparency and customization.
 ---
 
 ## 📦 Project Structure
+LaptopPowerScreenOptimizer/
+├── ScreenResChange.exe # Built from screen_resolution_changer
+├── task_template.xml # Task Scheduler template
+├── enable_screenrefresher.bat # Creates AC on/off tasks
+├── check_power_and_set_refresh.bat # Checks power status at startup
+└── disable_screenrefresher.bat # Deletes all scheduled tasks
+
+---
+
+## 🚀 Setup
+
+### 1. Clone or Download
+```bash
+git clone https://github.com/crtque/auto-screen-hz-switcher.git
+cd auto-screen-hz-switcher
+```
+### 2. Install Scheduled Tasks
+
+Run:
+```bash
+enable_screenrefresher.bat
+```
+
+Creates two Windows Task Scheduler tasks:
+* AC On: Sets refresh rate to 144Hz
+* AC Off: Sets refresh rate to 60Hz
